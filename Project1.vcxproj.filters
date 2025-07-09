@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일\imgui">
+      <UniqueIdentifier>{f22b687a-1f87-4311-b8ba-3f6437b44be9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Physics">
+      <UniqueIdentifier>{fb3aec6f-573f-422a-9662-87c31c11d52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Render">
+      <UniqueIdentifier>{9e2d466d-44c7-4b3c-a162-bba6c3232d8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Core">
+      <UniqueIdentifier>{f67a3398-2502-4550-b042-c6169a242eec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Gui">
+      <UniqueIdentifier>{754b00e3-272d-4751-8e5e-728608a1ebe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Gui\ImGui">
+      <UniqueIdentifier>{265062f2-595b-4961-9c9f-e7c13cc2de20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Assets">
+      <UniqueIdentifier>{30b9d57e-54a2-4c70-9c49-a95db0bdecca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Physics">
+      <UniqueIdentifier>{60b38c33-1d96-49ec-9913-4aedbd46a94f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ShaderSources">
+      <UniqueIdentifier>{83ec71ed-50a0-459d-a35d-a7e117e0554e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="temp.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_demo.cpp">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_glfw.cpp">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_impl_opengl3.cpp">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_tables.cpp">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_widgets.cpp">
+      <Filter>소스 파일\Gui\ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\Downloads\glad\src\glad.c">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\AssetManager.cpp">
+      <Filter>소스 파일\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Mesh.cpp">
+      <Filter>소스 파일\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\Model.cpp">
+      <Filter>소스 파일\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="Assets\TextureLoader.cpp">
+      <Filter>소스 파일\Assets</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Buffers.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\EntryPoint.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="core\Window.cpp">
+      <Filter>소스 파일\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\Gui.cpp">
+      <Filter>소스 파일\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Gui\GuiWidgets.cpp">
+      <Filter>소스 파일\Gui</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\Physics.cpp">
+      <Filter>소스 파일\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Physics\RigidBody.cpp">
+      <Filter>소스 파일\Physics</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Camera.cpp">
+      <Filter>소스 파일\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Light.cpp">
+      <Filter>소스 파일\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Primitives.cpp">
+      <Filter>소스 파일\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Renderer.cpp">
+      <Filter>소스 파일\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Shader.cpp">
+      <Filter>소스 파일\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\Shader.h">
+      <Filter>소스 파일\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\ShaderManager.cpp">
+      <Filter>소스 파일\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ShaderSources\borderShader.fs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\borderShader.vs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\directionalLight.vs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\frameShader.fs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\frameShader.vs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\lightShader.fs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\lightShader.vs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\mirrorShader.fs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\mirrorShader.vs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\normalTest.fs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\normalTest.gs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\normalTest.vs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\objectShaderV.fs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\objectShaderV.vs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\shadowShader.fs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\shadowShader.vs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\skyboxShader.fs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+    <None Include="ShaderSources\skyboxShader.vs">
+      <Filter>소스 파일\ShaderSources</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stb_image.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_glfw.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl3.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_impl_opengl3_loader.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_rectpack.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_textedit.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imstb_truetype.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowConst.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="imfilebrowser.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\AssetManager.h">
+      <Filter>소스 파일\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Mesh.h">
+      <Filter>소스 파일\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\Model.h">
+      <Filter>소스 파일\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="Assets\TextureLoader.h">
+      <Filter>소스 파일\Assets</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Buffers.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\Window.h">
+      <Filter>소스 파일\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Gui\GuiWidgets.h">
+      <Filter>소스 파일\Gui</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\Physics.h">
+      <Filter>소스 파일\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Physics\RigidBody.h">
+      <Filter>소스 파일\Physics</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Camera.h">
+      <Filter>소스 파일\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Light.h">
+      <Filter>소스 파일\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\Primitives.h">
+      <Filter>소스 파일\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\ShaderManager.h">
+      <Filter>소스 파일\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
